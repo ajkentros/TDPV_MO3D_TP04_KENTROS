@@ -16,9 +16,6 @@ public class CameraSwitch : MonoBehaviour
     // Variable del tipo TextMeshProUGUI para el texto del botón
     public TextMeshProUGUI buttonText;
 
-    // Variable del tipo GameObject para el marcador de cámara
-    public GameObject cameraMarker;
-
     // Variable del tipo Button para el botón de posición
     public Button positionButton;
 
@@ -136,8 +133,15 @@ public class CameraSwitch : MonoBehaviour
         // Activar o desactivar el marcador de cámara al hacer clic en el botón Position
         if (currentCameraMarker != null)
         {
-            currentCameraMarker.SetActive(!currentCameraMarker.activeSelf);
-            MoveSecondaryCameraToMarker(currentCameraMarker.transform.position, currentCameraMarker.transform.rotation);
+            // Mover la cámara secundaria al siguiente marcador en sentido antihorario
+            SwitchToNextCameraMarker();
+
+            // Obtener la posición y rotación del nuevo marcador
+            Vector3 newPosition = currentCameraMarker.transform.position;
+            Quaternion newRotation = currentCameraMarker.transform.rotation;
+
+            // Mover y rotar la cámara secundaria al nuevo marcador
+            MoveSecondaryCameraToMarker(newPosition, newRotation);
         }
         else
         {

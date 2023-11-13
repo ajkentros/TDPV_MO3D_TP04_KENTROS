@@ -574,6 +574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraMarkerOeste
       objectReference: {fileID: 0}
+    - target: {fileID: 6043732646004209670, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8843860845843661979, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -54.5
@@ -1646,7 +1650,6 @@ MonoBehaviour:
   secondaryCamera: {fileID: 1666355180}
   switchCamera: {fileID: 2139395813}
   buttonText: {fileID: 1076196387}
-  cameraMarker: {fileID: 0}
   positionButton: {fileID: 1292876799}
   cameraMarkerSur: {fileID: 914915767}
   cameraMarkerNorte: {fileID: 370742161}
@@ -2542,6 +2545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraMarkerEste
       objectReference: {fileID: 0}
+    - target: {fileID: 6043732646004209670, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8843860845843661979, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 78.5
@@ -2681,15 +2688,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843860845843661979, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: -39.10577
       objectReference: {fileID: 0}
     - target: {fileID: 8843860845843661979, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -223
+      value: 114.85162
       objectReference: {fileID: 0}
     - target: {fileID: 8843860845843661979, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -556.5927
+      value: -542
       objectReference: {fileID: 0}
     - target: {fileID: 8843860845843661979, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3077,6 +3084,10 @@ PrefabInstance:
     - target: {fileID: 6043732646004209670, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_Name
       value: CameraMarkerNorte
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043732646004209670, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8843860845843661979, guid: f1f0f32c4b54f3a41a1004de09f6215f, type: 3}
       propertyPath: m_LocalPosition.x
